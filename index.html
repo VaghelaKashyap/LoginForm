@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Login</title>
+
+    <style>
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .vk_head{
+            font-weight: 600;
+            color: white;
+        }
+        .vk_pt1{
+            background-color: #006BDE;
+            height: 750px;
+        }
+        .vk_label{
+            color: white;
+            font-weight: 600;
+        }
+        .vk_input{
+            box-shadow: none;
+        }
+        .vk_btn{
+            background-color: white;
+            color: #006BDE;
+            font-weight: 600;
+        }
+        .vk_pt2{
+            background-image: url('back.png');
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+
+            <div class="row">
+                <div class="col vk_pt1">
+                    <div class="container text-center mt-5">
+                        
+                    <h1 class="vk_head mt-5">Hello, Welcome Back!</h1>
+                    <br>
+                    <h1 class="display-6 vk_head">Login Here!</h1>
+                    <br>
+                    <br>
+                    </div>
+                    <div class="d-grid gap-2 col-6 mx-auto mt-3">
+                    <label for="exampleFormControlInput1" class="form-label vk_label">Email :</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1 vk_input">
+                    
+                    <label for="inputPassword6" class="col-form-label vk_label">Password :</label>
+                    <input type="password" id="inputPassword6" class="form-control vk_input" aria-describedby="passwordHelpInline">
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label vk_label" for="exampleCheck1">Remember Me!</label>
+                      </div>
+                    
+                    <br>
+                    <br>
+                    
+                    <button type="submit" class="btn btn-primary mb-3 vk_btn">Login</button>
+                    
+                    </div>
+                </div>
+                
+                <div class="col vk_pt2">
+                   
+                </div>
+            </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
